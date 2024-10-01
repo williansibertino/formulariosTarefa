@@ -6,9 +6,9 @@
     <title>Formulários PHP</title>
 </head>
 <body>
-    <h1>Formulário H1</h1>
+    <h1>Cadastro de Cliente</h1>
 
-    <form action="/formularios/cadclienteself.php" method='post'>
+    <form action="/formulariosTarefa/cadclienteself.php" method='post'>
 
         Nome: <input type='text' name='nome'><br><br>
         Email: <input type='text' name='email'><br><br>
