@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3bae4e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.card {
+    background-color: #72c27f;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+h1 {
+    color: #07370e;
+    margin-bottom: 10px;
+}
+.aviso {
+    color: #07370e;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-decoration: solid;
+    background-color: #72c27f;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.avisoSelf {
+    color: #07370e;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    text-decoration: solid;
+    background-color: #72c27f;
+    border-radius: 5px;
+}
+input {
+    height: 30px;
+    width: 300px;
+    border: 2px solid #3bae4e;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+span {
+    color: #07370e;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #3bae4e;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #07370e;
+    cursor: pointer;
+
+}
